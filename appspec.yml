@@ -8,6 +8,3 @@ hooks:
   ApplicationStart:
     - location: start.sh
       timeout: 300
-  ApplicationStop:
-    - location: stop.sh
-      timeout: 300
