@@ -5,6 +5,9 @@ files:
     destination: /home/ubuntu/
 
 hooks:
+  BeforeInstall:
+    - location: stop.sh
+      timeout: 300
   AfterInstall:
     - location: start.sh
       timeout: 300
