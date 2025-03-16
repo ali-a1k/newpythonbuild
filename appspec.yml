@@ -6,9 +6,6 @@ files:
 
 hooks:
   AfterInstall:
-    - location: make_executable.sh
-      timeout: 300
-      runas: ubuntu
     - location: start.sh
       timeout: 300
       runas: ubuntu
