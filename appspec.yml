@@ -6,9 +6,5 @@ files:
 
 hooks:
   AfterInstall:
-    - location: ex.sh
-      timeout: 300
-      runas: ubuntu
     - location: start.sh
       timeout: 300
-      runas: ubuntu
